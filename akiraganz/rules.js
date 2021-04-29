@@ -1,6 +1,6 @@
 const rules = (prefix) => { 
 	return `
-*RULES BAGI PENGGUNA AKIRA BOT*
+*RULES BAGI PENGGUNA ZEEBOT*
     
 ➤ Tolong Gunakan Delay Jangan Spam Saat Menggunakan Bot, Mentang Mentang Gratis Diborong semua.
 ➤ Call/VC Bot Auto Block.
@@ -14,8 +14,9 @@ Bot Akan Memblokir Kamu Atau Keluar Dari Grup Yang Kamu Kelola.
 *➤ Kami tidak menyimpan gambar, video,  audio, dan dokumen yang anda kirim*
 *➤ Kami tidak akan pernah meminta anda untukmemberikan informasi pribadi*
 *➤ Jika menemukan Bug/Error silahkan langsung lapor ke Owner bot*
-*➤  Jika kamu menelpon bot Dan di block,Owner Tidak Bertanggung Jawab*
+*➤ Jika kamu menelpon bot Dan di block,Owner Tidak Bertanggung Jawab*
 *➤ Apapun yang anda perintah pada bot ini , KAMI TIDAK AKAN BERTANGGUNG JAWAB*
+*➤ Hay Cwe I Love You❤
 ━━━━━━━━━━━━━━━━━━━━━━━━`
 }
 exports.rules = rules
