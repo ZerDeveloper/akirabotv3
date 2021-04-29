@@ -6386,6 +6386,7 @@ break
 ║┣❏ Ramlan ID
 ║┣❏ Kazuya Develover
 ║┣❏ Nayla
+║┣❏ Ozy
 ║┃
 ║┗━━━━*《 ${namabot} 》*
 ╚═════════════════❍
