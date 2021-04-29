@@ -67,19 +67,19 @@ const vcard = 'BEGIN:VCARD\n'  //Jangan diganti,Ntar error
             + 'VERSION:3.0\n'  //Jangan diganti,Ntar error
             + 'FN:Akira\n'  // Ganti jadi namamu
             + 'ORG:Pengembang ${namabot};\n'  // Ganti jadi namamu/Botmu
-            + 'TEL;type=CELL;type=VOICE;waid=6282158549899:+6282158549899\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
+            + 'TEL;type=CELL;type=VOICE;waid=6285746619545:+6285746619545\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
             + 'END:VCARD' // Jangan diganti,Ntar Error
             
 //settings            
 prefix = '#'
 blocked = []   
 limitawal = '500' //Terserah Mo Ganti apa kgk
-memberlimit = 1 //Terserah Mo Ganti apa kgk
+memberlimit = 0 //Terserah Mo Ganti apa kgk
 cr = '*Akira Bot By Akira*'
-vr = '*Akira Bot Wa*\n*Subscribe Akira*'
+vr = '*ZeeBot*'
 
 //owner number
-const ownerNumber = ["6282158549899@s.whatsapp.net"]  //Ganti Jadi Nomormu
+const ownerNumber = ["6285746619545@s.whatsapp.net"]  //Ganti Jadi Nomormu
 
 //file json
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
@@ -315,7 +315,7 @@ akira.on('group-participants-update', async (anu) => {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-					pp_user = 'https://i.ibb.co/B6mZsR9/20210403-182628.jpg'
+					pp_user = 'https://i.ibb.co/kGHV0Tv/20210406-092404.png'
 				teks = `
 ʜᴀʟʟᴏ
 @${num.split('@')[0]}
@@ -335,7 +335,7 @@ akira.on('group-participants-update', async (anu) => {
 				akira.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-					pp_user = 'https://i.ibb.co/ZSV8q3y/20210403-183459.jpg'
+					pp_user = 'https://i.ibb.co/tZChbjh/20210406-104919.jpg'
 				teks = `
 sᴇʟᴀᴍᴀᴛ ᴛɪɴɢɢᴀʟ 
 @${num.split('@')[0]}👋🍻
@@ -5688,23 +5688,6 @@ break
 ├➤ ʟᴇᴠᴇʟ : ${getLevelingLevel(sender)}
 ├➤ ᴜsᴇʀ ʀᴇɢɪsᴛᴇʀ : ${_registered.length}
 ╰──── ⸨ *_${namabot}_* ⸩ ⊰─═══
-
-◪ ɪɴғᴏ ᴀᴋɪʀᴀ
-❏ *ɴᴀᴍᴀ:* 
-Akira ( Reihan S ) 
-❏ *ᴡᴇʙ:* 
-https://akirainfo.site/ (  Sedang dalam Perbaikan  )
-❏ *ᴡᴇʙ ᴀᴘɪ:* 
-https://akirainfo.site/ (  Sedang dalam Perbaikan  )
-❏ *ɪɴsᴛᴀɢʀᴀᴍ:* 
-https://instagram.com/akirashopreal
-❏ *ᴋᴏɴᴛᴀᴋ ᴀᴋɪʀᴀ:* 
-Wa.me/6282158549899
-❏ *ɢʀᴜʙ ʙᴏᴛ ᴡᴀ:* 
-https://chat.whatsapp.com/J4HbJAqQuaAJsGovcuUNV4
-❏ *ᴄʜᴀɴɴᴇʟ ʏᴏᴜᴛᴜʙᴇ:* 
-https://m.youtube.com/channel/UCvVd-kAsrJUjg0bwKqxUPeg
-  ----------------------------------
 ╔═════════════════❍
 ║⸨𝐑𝐮𝐥𝐞𝐬 - 𝐒𝐢𝐦𝐩𝐥𝒆⸩
 ║▬▭▬▭▬▭▬▭▬▭
@@ -6388,8 +6371,9 @@ https://m.youtube.com/channel/UCvVd-kAsrJUjg0bwKqxUPeg
 ║┃
 ║┣━━⊱*「 Thanks To 」* 
 ║┃
-║┣❏ Akira
-║┣❏ Roy ( Team )
+║┣❏ Arga
+║┣❏ MRoy
+║┣❏ Rafly
 ║┣❏ Riu ( Team )
 ║┣❏ Sofyan AMV
 ║┣❏ Agung ( Team )
