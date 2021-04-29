@@ -5350,7 +5350,7 @@ break
                 if (namaUser.length >= 30) return reply(`*why is your name so long it's a name or a train*`)
                 if (umurUser > 20) return reply(`*UMUR KAMU TERLALU TUA*`)
                 if (umurUser < 10) return reply(`*UMUR KAMU TERLALU MUDA*`)
-                pp_user = await getBuffer(`https://i.ibb.co/zbS493t/20210403-184336.jpg`)
+                pp_user = await getBuffer(`https://i.ibb.co/3r0tSrF/menu.jpg`)
                 veri = sender
                 if (isGroup) {
                     addRegisteredUser(sender, namaUser, umurUser, time, serialUser)
