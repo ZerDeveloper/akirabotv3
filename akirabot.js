@@ -6953,7 +6953,7 @@ break
 					case 'ingfokan':
 					me = akira.user
 					uptime = process.uptime()
-					teks = `*Nama bot* : ${me.name}\n*OWNER* : *AkiraGanz*\n*AUTHOR* : AkiRa\n*Nomor Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total Block* : ${blocked.length}\n*Bot aktif selama* : ${kyun(uptime)}`
+					teks = `*Nama bot* : ${me.name}\n*OWNER* : *ZERO*\n*AUTHOR* : KELUARGA\n*Nomor Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total Block* : ${blocked.length}\n*Bot aktif selama* : ${kyun(uptime)}`
 					buffer = await getBuffer(me.imgUrl)
 					akira.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
