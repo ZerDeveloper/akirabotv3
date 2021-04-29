@@ -60,7 +60,7 @@ const TobzKey = 'BotWeA'
 const lolhuman = 'AkiraYT' //Free Trial 3 day
 const onlydev = 'YTAkira' //Free Apikey
 const xteam = 'AkiraBotWa' //Free Trial 3 day
-const namabot = 'Akira Bot'
+const namabot = 'ZEEBOT'
 
 //kontak
 const vcard = 'BEGIN:VCARD\n'  //Jangan diganti,Ntar error
@@ -75,8 +75,8 @@ prefix = '#'
 blocked = []   
 limitawal = '500' //Terserah Mo Ganti apa kgk
 memberlimit = 0 //Terserah Mo Ganti apa kgk
-cr = '*Akira Bot By Akira*'
-vr = '*ZeeBot*'
+cr = '*VERIFIED*'
+vr = '*VERIFIED*'
 
 //owner number
 const ownerNumber = ["6285746619545@s.whatsapp.net"]  //Ganti Jadi Nomormu
@@ -5678,7 +5678,7 @@ break
 				if (isBanned) return reply(ind.baned())
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                    wew = fs.readFileSync(`./akiraganz/logo.jpg`)
+                    wew = fs.readFileSync(`./akiraganz/logoo.jpg`)
                     databaseuhy = `
 ╭══─⊱ ❰ *_User ${namabot}_* ❱ ⊰─═
 ├➤ ɴᴀᴍᴀ : ${pushname}
@@ -6390,7 +6390,7 @@ break
 ║┗━━━━*《 ${namabot} 》*
 ╚═════════════════❍
 ` 
-                    akira.sendMessage(from, wew, image, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "*VERIFIED", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('akiraganz/fake.jpg')} } }, caption: databaseuhy})
+                    akira.sendMessage(from, wew, image, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "*VERIFIED", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('akiraganz/fakee.jpg')} } }, caption: databaseuhy})
 					break
 				case 'donasi':
 				case 'donate':
