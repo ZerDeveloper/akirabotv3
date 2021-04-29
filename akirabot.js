@@ -53,12 +53,12 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./akira')
 
 //apikey
-const apivhtear = 'AkiraGithub' // Vhtear Beli Sendiri Yoo
+const apivhtear = 'GithubAkira' // Vhtear Beli Sendiri Yoo
 const ZeksApi = 'apivinz'
-const apileys = 'demo'
+const apileys = 'OneDayOneCharity'
 const TobzKey = 'BotWeA'
-const lolhuman = 'AkiraYT' //Free Trial 3 day
-const onlydev = 'YTAkira' //Free Apikey
+const lolhuman = 'AkiRaAPI' //Free Trial 3 day
+const onlydev = 'DarkApi108' //Free Apikey
 const xteam = 'AkiraBotWa' //Free Trial 3 day
 const namabot = 'ZEEBOT'
 
