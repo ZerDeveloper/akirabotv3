@@ -5671,9 +5671,7 @@ break
 		if (isBanned) return reply(ind.baned())
            	await akira.sendMessage(from, `Pong!!!!\nSpeed: ${processTime(time, moment())} _Second_`)
 		break
-               			case 'help': 
-               			case 'help': 
-               			case 'menu':
+               			case './pp': 
                  if (!isRegistered) return reply( ind.noregis())
 				if (isBanned) return reply(ind.baned())
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
@@ -7689,9 +7687,8 @@ break
 						akira.groupSettingChange(from, GroupSettingChange.messageSend, true)
 					}
 					break      
-            case 'admin':
-            case 'owner':
-            case 'creator':
+            
+            case 'poj':
                   akira.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
                   akira.sendMessage(from, 'Tuh kontak AkiRa <•_•> ,Jangan Lupa Save Ya (*>*)',MessageType.text, { quoted: mek} )
                   ini_buffer = await getBuffer("https://i.ibb.co/TBYdPv7/20210402-204108.jpg")
